@@ -1,0 +1,62 @@
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            color: black;
+        }
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: white;
+            color: black;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .input-box {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .btn-red {
+            background: red;
+            color: white;
+        }
+        .btn-yellow {
+            background: yellow;
+            color: black;
+            border: 1px solid gray;
+        }
+        .btn-green {
+            background: green;
+            color: white;
+        }
+        .btn-blue {
+            background: blue;
+            color: white;
+        }
+        #result {
+            font-weight: bold;
+            color: lightyellow;
+            margin-top: 15px;
+        }
+        .circular-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px;
+        }
